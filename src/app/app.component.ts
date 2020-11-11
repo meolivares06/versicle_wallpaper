@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   currentVersicle$ = new BehaviorSubject<string>(this.versicles[this.nextIndex])
 
   ngOnInit() {
-    setInterval(function() {this.changeVersicle()}.bind(this), 3000)
+    setInterval(function() {this.changeVersicle()}.bind(this), 15000)
   }
 
   changeVersicle(): void {

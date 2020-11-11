@@ -3,7 +3,7 @@
   height: 100vh;
   margin: 0 auto;
 
-  border: 1px solid black;
+
 
   overflow: hidden;
   position: relative;
@@ -33,4 +33,16 @@
   font-size: 4vh;
   text-shadow: 0 2px 2px black;
 
+}
+.btn-download {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+
+ background: transparent;
+  color: white;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  font-weight: bold;
 }

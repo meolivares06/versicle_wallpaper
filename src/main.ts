@@ -7,6 +7,10 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
-
+export const process = {
+  env: {
+    devicePixelRatio: window.devicePixelRatio
+  }
+}
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
