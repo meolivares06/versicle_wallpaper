@@ -1,0 +1,4 @@
+<div class="container">
+  <app-versicle [versicle]="currentVersicle$ | async" [index]="nextIndex"></app-versicle>
+</div>
+<button (click)="changeVersicle()">Next</button>
