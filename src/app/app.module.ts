@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { VersicleComponent } from './versicle/versicle.component';
+import { VersicleComponent } from './components/versicle/versicle.component';
+import { OtroComponent } from './components/otro/otro.component';
+import { WrapperComponent } from './components/wrapper/wrapper.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VersicleComponent
+    VersicleComponent,
+    OtroComponent,
+    WrapperComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,9 @@
+<section #sectionVersicle class="versicle" *ngIf="versicle">
+  <div class="text">
+  <p>{{versicle.text}}</p>
+  <small>{{versicle.quote}}</small>
+  <p style="font-size: 70%"><small>{{versicle.category}}</small></p>
+  </div>
+  <button #btnDownload class="btn-download" (click)="wallpaperDownload()">↓</button>
+  <img class="cover" src="/assets/images/{{index}}.jpg" />
+</section>

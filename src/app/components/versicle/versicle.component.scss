@@ -7,7 +7,7 @@
 
   overflow: hidden;
   position: relative;
-  background: green;
+  background: black;
 
   display: flex;
   flex-direction: column;
@@ -22,22 +22,22 @@
 .cover {
   object-fit: cover;
   object-position: 0 0;
-  opacity: .65;
+  opacity: .75;
 }
 
-.versicle h1 {
+.versicle .text {
   color: white;
   position: absolute;
   width: 50%;
   z-index: 10;
   font-size: 4vh;
-  text-shadow: 0 2px 2px black;
-
+  text-shadow: 0 0px 2px black;
+  color: yellow;
 }
 .btn-download {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 3px;
+  left: 2px;
   z-index: 11;
 
  background: transparent;
@@ -45,4 +45,7 @@
   border: 1px solid #eee;
   border-radius: 2px;
   font-weight: bold;
+  padding-bottom: 4px;
+
+  cursor: pointer;
 }
